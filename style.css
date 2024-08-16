@@ -1,11 +1,15 @@
 #gridContainer{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    width: 1000px;
+    height: 800px;
 
 
 }
 .grid-item{
+    disply:flex;
+    justify-content: center;
+    align-items: center;
     width: 60px;
     height: 60px;
     background-color: white;
